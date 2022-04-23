@@ -1,0 +1,160 @@
+body {
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 10%;
+    background-color: rgba(0, 38, 38, 1);
+    font-family:"Source Sans Pro", Helvetica, sans-serif;
+    color: rgba(255,255,255,0.6); 
+  }
+  
+  #mainTitle{
+    color:rgba(2, 140, 126, 0.8);
+    text-decoration: underline;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    text-align: center;
+    height: 40px;
+  }
+  a{
+    color: rgba(163, 156, 249, 0.6);
+  }
+  
+  a:visited {
+    color: rgba(112, 103, 170, 0.6);
+  }
+  
+  h6{
+    color:rgba(2, 140, 126, 0.8);
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    text-align: center;
+    height: 40px;
+  }
+  
+  section {
+    background-color: rgba(2, 114, 103, 0.3);
+    margin: 20px 10px;
+    padding: 10px;
+  }
+  
+   .flex-container-row {
+    background-color: rgba(2, 114, 103, 0.3);
+    margin: 20px 10px;
+    padding: 10px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    word-wrap: break-word;
+  }
+  
+    nav.flex-container-row {
+    background-color: rgba(2, 114, 103, 0.3);
+    margin: 20px 10px;
+    padding: 10px;
+    align-items: stretch;
+    justify-content: space-around;
+    word-wrap: break-word;
+    flex-direction: column;
+    vertical-align: middle;
+    
+  }
+  
+  .flex-container-column {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  nav.flex-container-column {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    flex-direction: row;
+  }
+  
+  .title{
+    padding-top: 0px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 700;
+  }
+  
+  h2{
+    font-size:medium;
+
+  }
+
+  .subtitle{
+    width: 100%;
+    word-wrap: break-word;
+    padding-left: 1%; 
+    padding-top: 1%;
+  }
+  
+  div.photo {
+    padding: auto; /*metti 0 se non vuoi distanza tra foto e margine*/
+    vertical-align: middle;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(2, 140, 126, 0.8);
+  }
+
+  img.photoPersonal{
+    margin-right: 10px;
+    padding-top: 0%;
+    padding-right: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border-bottom-right-radius: 0%;
+  }
+  
+  img {
+    width: 90%;
+    height: 90%;
+    border-radius: 100%;
+    border-bottom-right-radius: 100%; /*unica differenza con photoPersonal*/
+    align-self: center;
+  }
+  
+  nav.photo {
+    background-color: rgba(2, 140, 126, 0.8);
+    width: 1%;
+    /*height: 10%;*/
+    
+    /*margin: auto;*/
+    padding-top: 10%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+
+/*menu*/
+.menuLaterale {
+  /*height: 100%;uoccupa tutta la lunghezza */
+  width: 12%;
+  height: 30%;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 10%; /* Stay at the top */
+  left: 1%;
+  background-color: rgba(2, 140, 126, 0.5);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  margin-left: 2%;
+  font-size: 30%;
+}
+
+/* The navigation menu links */
+.menuLaterale a {
+  text-decoration: none;
+  margin-left: 1%;
+  font-size: small;
+  /*display: block;*/
+}
+
+
